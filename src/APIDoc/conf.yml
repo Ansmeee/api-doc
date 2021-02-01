@@ -1,0 +1,2 @@
+# api doc conf file
+controllerPath: '../app/Http/Controllers'

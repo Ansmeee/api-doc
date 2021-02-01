@@ -1,0 +1,22 @@
+{
+    "name": "ansme/api-doc",
+    "description": "RESTful API Doc Tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ansme",
+            "email": "ansmeee@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Api\\Doc\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Api\\Doc\\Tests\\": "tests/"
+        }
+    }
+}
